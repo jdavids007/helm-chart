@@ -1,0 +1,9 @@
+---
+questions:
+  - variable: ingress.host
+    default: ""
+    description: "Host DNS name where where the api should be served from"
+    label: Host
+    type: hostname
+    group: "Networking"
+    required: true
